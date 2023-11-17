@@ -1,0 +1,412 @@
+#line{
+    position: relative;
+    height: 4em;
+    left: 15em;
+    bottom: 3em;
+}
+#nav{
+    display: flex;
+    text-decoration: none;
+    background-color: #2d2d2d;
+    position: sticky;
+    height: 4.3em;
+    top: 0;
+    z-index: 200;
+}
+#logo{
+    position: relative;
+    left: 4em;
+    top: 2em;
+    
+}
+#button{
+    text-decoration: none;
+    color: white;
+}
+#home{
+    position: relative;
+    left: 120%;
+    bottom: 260%;
+    font-size: 30px;
+    color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#location{
+    position: relative;
+    left: 18em;
+    bottom: 6em;
+}
+#tokyo{
+    position: relative;
+    left: 20em;
+    bottom: 7.5em;
+    color: white;
+    text-decoration: none;
+}
+#secondimage{
+    position: relative;
+    width: 95%;
+    padding-left: 5%;
+}
+#thirdimage{
+    position: relative;
+    width: 95%;
+    padding-left: 5%;
+    background-color: #ebebeb;
+    margin-top: 3%;
+    width: 100%;
+}
+#seconddiv{
+    background-color: #ebebeb;
+    margin-top: 1%;
+    width: 100%;
+    height: 900px;
+}
+#arrow{
+    position: relative;
+    top: 2em;
+    padding-left: 2em;
+}
+#fourthimage{
+    position: relative;
+    width: 95%;
+    padding-left: 2%;
+    background-color: #ebebeb;
+    margin-top: 3%;
+    width: 100%;
+    top: 2em;
+}
+#thirddiv{
+    position: relative;
+    width: 75%;
+}
+#topic{
+    position: relative;
+    top: 15em;
+    left: 14em;
+    width: 800px;  
+}
+#one{
+    position: relative;
+    top: 18em;
+    right: 3em;
+    width: 90%;
+}
+#two{
+    position: relative;
+    top: 28em;
+    left: 14em;
+    font-size: 1em;
+    width: 45em;
+
+}
+#three{
+    position: relative;
+    top: 35em;
+    left: 3em;
+    width: 70%;
+   
+}
+#last{
+    position: relative;
+    top: 640px;
+    width: 90%;
+    font-weight: bold;
+}
+#ip{
+    position: relative;
+    top: 790px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-left: 60px;
+}
+#black{
+    position: relative;
+    top: 900px;
+    width: 1260px;
+}
+#lastdiv{
+    position: relative;
+    top: 899px;
+    width: 133%;
+    background-color: #2d2d2d;
+    color: white;
+    display: flex;
+    height: 200px;
+}
+#about{
+    position: relative;
+    left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#exhibit{
+    position: relative;
+    left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#pree{
+    position: relative;
+    left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#tovisit{
+    position: relative;
+    left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#list{
+    position: relative;
+    left: 80px;
+    font-size: 20px;
+    top: 30px;
+}
+#exhib{
+    position: relative;
+    left: 80px;
+    font-size: 20px;
+    top: 30px;
+}
+#lis{
+    position: relative;
+    left: 80px;
+    font-size: 20px;
+    top: 30px;
+}
+#header{
+    position: relative;
+    top: 900px;
+    background-color: #2d2d2d;
+    border: 2px solid brown;
+    width: 133%;
+    height: 400px;
+    display: flex;
+}
+#lastimag{
+    position: relative;
+    left: 90px;
+    color: white;
+}
+#wite{
+    position: relative;
+}
+#wed{
+    position: relative;
+    bottom: 30px;
+    left: 90px;
+}
+#locator{
+    position: relative;
+    left: 80px;
+}
+#global{
+    position: relative;
+    top: 30px;
+    left: -150px;
+}
+#globa{
+    position: relative;
+    top: 60px;
+    left: -350px;
+}
+#globe{
+    position: relative;
+    left: 90px;
+    top: 30px;
+}
+#wit{
+    position: relative;
+    left: -170px;
+}
+#user{
+    background-color: #202020;
+    top: 1200px;
+    width: 900px;
+}
+#use{
+    position: relative;
+    width: 90px;
+    top: 900px;
+    
+}
+#used{
+    position: relative;
+    width: 90px;
+    top: 930px;
+    left: 900px;
+   
+}
+@media screen and (max-width:478px){
+    #line{
+        display: none;
+    }
+    #location{
+        display: none;
+    }
+    #button{
+        position: relative;
+        right: 410px;
+        /* top: 100px; */
+    }
+    #logo{
+        position: relative;
+        right: 50px;
+    }
+    #home{
+        display: none;
+    }
+    #nav{
+        width: 80%;
+    }
+    #secondimage{
+        position: relative;
+        width: 80%;
+    }
+    #thirdimage{
+        width: 70%;
+    }
+    #arrow{
+        width: 70%;
+    }
+    #fourthimage{
+        width: 88%;
+    }
+    #seconddiv{
+        width: 80%;
+        height: 10%;
+    }
+    #thirddiv{
+        position: relative;
+        bottom: 50%;
+    }
+    #topic{
+        position: relative;
+        width: 300px;
+        left: 20px;
+        top: 40px;
+    }
+    #one{
+        position: relative;
+        top: 40px;
+        left: 10px;
+    }
+    #two{
+        position: relative;
+        top: 60px;
+        left: 30px;
+        width: 90%;
+    }
+    #three{
+        position: relative;
+        top: 89px;
+        width: 70%;
+        left: 10px;
+
+    }
+    #last{
+        position: relative;
+        top: 80px;
+        left: 20px;
+        width: 80%;
+    }
+    #ip{
+        position: relative;
+        top: 90px;
+        width: 90%;
+        left: -30px;
+    }
+    #black{
+        position: relative;
+        top: 110px;
+        width: 109%;
+    }
+    #lastdiv{
+        position: relative;
+        top: 100px;
+        height: 980px;
+        width: 109%;
+    }
+    #exhibit{
+        position: relative;
+        top: 309px;
+        left: -40px;
+    }
+    #exhib{
+        position: relative;
+        top: 360px;
+        left: -90px;
+    }
+    #tovist{
+        position: relative;
+        top: 490px;
+        left: -199px;
+    }
+    #lis{
+        position: relative;
+        top: 550px;
+        left: -199px;
+    }
+    #pree{
+        position: relative;
+        top: 930px;
+        left: -280px;
+    }
+    #header{
+        position: relative;
+        top: 100px;
+        height: 720px;
+        width: 109%;
+    }
+    #wite{
+        position: relative;
+        left: -60px;
+    }
+    #wit{
+        position: relative;
+        top: 270px;
+        left: -290px;
+    }
+    #global{
+        position: relative;
+        left: 80px;
+    }
+    #messe{
+        position: relative;
+        /* left: 20px; */
+    }
+    #link{
+        position: relative;
+        top: 470px;
+        left: -120px;
+    }
+    #relax{
+        position: relative;
+        top: 450px;
+    }
+    #user{
+        position: relative;
+        top: 80px;
+        width: 120%;
+    }
+    #use{
+        position: relative;
+        top: 0px;
+        color: white;
+    }
+    #used{
+        position: relative;
+        left: 60px;
+        top: 20px;
+    }
+}
